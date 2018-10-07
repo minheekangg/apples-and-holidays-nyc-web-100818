@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
       puts supply_s
     end
-
+end
 
 
 =begin
