@@ -53,6 +53,24 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
+
+  new_holiday = []
+  holiday_a = []
+
+  holiday_hash.each do |season, holiday|
+    holiday.each do |name, supply|
+      supply_s = ""
+      supply.each do |word|
+        supply_s = supply_s + ", "+ word
+        if supply_s[0..1] == ", "
+          supply_s = supply_s[2..-1]
+        end
+      end
+      puts supply_s
+    end
+
+
+
 =begin
   new_holiday = []
   holiday_a = []
