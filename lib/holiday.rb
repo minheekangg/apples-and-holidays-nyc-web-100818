@@ -64,11 +64,12 @@ def all_supplies_in_holidays(holiday_hash)
         supply_s = supply_s + ", "+ word
         if supply_s[0..1] == ", "
           supply_s = supply_s[2..-1]
+
+                puts supply_s
         end
       end
     end
 
-      puts supply_s
   end
 
 end
