@@ -59,19 +59,8 @@ def all_supplies_in_holidays(holiday_hash)
 
   holiday_hash.each do |season, holiday|
     holiday.each do |name, supply|
-      supply_s = ""
-      supply.each do |word|
-        supply_s = supply_s + ", "+ word
-        if supply_s[0..1] == ", "
-          supply_s = supply_s[2..-1]
-
-                puts supply_s
-        end
-      end
     end
-
   end
-
 end
 
 
