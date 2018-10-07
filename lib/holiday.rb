@@ -66,8 +66,9 @@ def all_supplies_in_holidays(holiday_hash)
           supply_s = supply_s[2..-1]
         end
       end
-      puts supply_s
+
     end
+          puts supply_s
 end
 
 
